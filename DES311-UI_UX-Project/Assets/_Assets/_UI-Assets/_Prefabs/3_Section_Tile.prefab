@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6888057597909210933}
   m_Layer: 5
-  m_Name: 4_Section_Tile
+  m_Name: 3_Section_Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1344,7 +1344,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
