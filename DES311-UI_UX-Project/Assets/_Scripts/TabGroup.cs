@@ -8,9 +8,9 @@ using UnityEngine.EventSystems;
 public class TabGroup : MonoBehaviour
 {
     public List<TabButton> TabButtons;
-    public Sprite TabIdle;
-    public Sprite TabHover;
-    public Sprite TabActive;
+    //public Sprite TabIdle;
+    //public Sprite TabHover;
+    //public Sprite TabActive;
     public TabButton SelectedTab;
     public List<GameObject> ObjectsToSwap;
 
@@ -29,7 +29,7 @@ public class TabGroup : MonoBehaviour
         ResetTabs(); // Resets Sprite Icon
         if (SelectedTab == null || button != SelectedTab) // Only change the sprite if the tab isn't already selected
         {
-            button.Background.sprite = TabHover; // Swap Sprite
+            //button.Background.sprite = TabHover; // Swap Sprite
         }
     }
 
@@ -50,7 +50,7 @@ public class TabGroup : MonoBehaviour
         SelectedTab.Select();
 
         ResetTabs(); // Resets Sprite Icon
-        button.Background.sprite = TabActive; // Swap Sprite
+        //button.Background.sprite = TabActive; // Swap Sprite
         int index = button.transform.GetSiblingIndex(); // Gets index of each tab image, each tab images index relates to each menu panel
         for (int i = 0; i < ObjectsToSwap.Count; i++) // Iterates through each object
         {
@@ -70,7 +70,7 @@ public class TabGroup : MonoBehaviour
         foreach(TabButton button in TabButtons)
         {
             if (SelectedTab !=null && button == SelectedTab) { continue; } // Skips currently selected Tab
-            button.Background.sprite = TabIdle; // Swap Sprite
+            //button.Background.sprite = TabIdle; // Swap Sprite
         }
     }
 
