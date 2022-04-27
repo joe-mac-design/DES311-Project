@@ -9681,7 +9681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -55, y: 0}
+  m_AnchoredPosition: {x: -54.999878, y: 0}
   m_SizeDelta: {x: -310, y: -180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &833025269
@@ -10173,7 +10173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -55, y: 0}
+  m_AnchoredPosition: {x: -54.999878, y: 0}
   m_SizeDelta: {x: -310, y: -180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897211421
@@ -15460,7 +15460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7602795, g: 0.78339463, b: 0.8018868, a: 1}
+  m_Color: {r: 0.62352943, g: 0.627451, b: 0.63529414, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15498,7 +15498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TabButtons: []
-  SelectedTab: {fileID: 0}
+  SelectedTab: {fileID: 1336530418}
   ObjectsToSwap:
   - {fileID: 494738742}
   - {fileID: 146498108}
@@ -25077,7 +25077,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 120, y: 0}
+  m_AnchoredPosition: {x: 119.99988, y: 0}
   m_SizeDelta: {x: 200, y: 1080}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!95 &2099595243
