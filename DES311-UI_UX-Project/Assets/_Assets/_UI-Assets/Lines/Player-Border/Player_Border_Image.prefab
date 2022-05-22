@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 3141506934219210306}
   - component: {fileID: 3141506934219210305}
   - component: {fileID: 1058837883}
+  - component: {fileID: 8315650325204503425}
   m_Layer: 5
   m_Name: Crosshair
   m_TagString: Untagged
@@ -167,6 +168,25 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!95 &8315650325204503425
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3141506934219210319}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 179bb3004d57dc24e9d0bca9dda95f40, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3141506934939953562
 GameObject:
   m_ObjectHideFlags: 0
