@@ -5196,7 +5196,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &412132450
 MonoBehaviour:
@@ -5557,7 +5557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectColor: {r: 0.050980397, g: 0.054901965, b: 0.0627451, a: 0.2509804}
   m_EffectDistance: {x: 5, y: -5}
   m_UseGraphicAlpha: 1
 --- !u!1 &439774823
@@ -6064,7 +6064,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 934190331}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.61538464
+  m_Size: 0.84150404
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6853,6 +6853,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 18189494}
     m_Modifications:
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Microphone 01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Microphone 02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Speaker
+      objectReference: {fileID: 0}
     - target: {fileID: 3452066077872003720, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_text
       value: Voice Chat Device
@@ -6959,6 +6975,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1312320473}
     m_Modifications:
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Ultra
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Very High
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: High
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: Medium
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[4].m_Text
+      value: Low
+      objectReference: {fileID: 0}
     - target: {fileID: 3452066077872003720, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_text
       value: Graphics Quality
@@ -7687,6 +7727,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 642448933}
     m_Modifications:
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Fullscreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Windowed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Borderless
+      objectReference: {fileID: 0}
     - target: {fileID: 3452066077872003720, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_text
       value: Display Mode
@@ -9200,6 +9256,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 642448933}
     m_Modifications:
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Montior 01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Monitor 02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Monitor 03
+      objectReference: {fileID: 0}
     - target: {fileID: 3452066077872003720, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_text
       value: Monitor
@@ -11344,8 +11416,8 @@ RectTransform:
   m_Father: {fileID: 2130881558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.15849596}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11984,9 +12056,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 642448933}
     m_Modifications:
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: 1920x1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "1280\xD7720"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "2560\xD71440"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "3840\xD72160"
+      objectReference: {fileID: 0}
     - target: {fileID: 3452066077872003720, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_text
       value: Resolution
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077909493677, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_text
+      value: 1920x1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077909493677, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3452066078109255717, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_Name
@@ -19503,6 +19599,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439774824}
     m_Modifications:
+    - target: {fileID: 3452066076613577593, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: Green
+      objectReference: {fileID: 0}
     - target: {fileID: 3452066077690851349, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -19510,6 +19626,18 @@ PrefabInstance:
     - target: {fileID: 3452066077872003720, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_text
       value: Crosshair Colour
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077909493677, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_text
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077909493677, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077909493677, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3452066078109255717, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_Name
@@ -24953,7 +25081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectColor: {r: 0.050980397, g: 0.054901965, b: 0.0627451, a: 0.2509804}
   m_EffectDistance: {x: 5, y: -5}
   m_UseGraphicAlpha: 1
 --- !u!1 &1889998241
@@ -25558,6 +25686,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 18189494}
     m_Modifications:
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Headphones
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Speakrt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452066077238672254, guid: 273e857aba431ae499034239441fada8, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Option D
+      objectReference: {fileID: 0}
     - target: {fileID: 3452066077872003720, guid: 273e857aba431ae499034239441fada8, type: 3}
       propertyPath: m_text
       value: Playback Device
